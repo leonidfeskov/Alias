@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Alias</title>
+        <meta name="keywords" content="Alias, Alias online, Алиас, алиас онлайн, играть в алиас онлайн" />
+        <meta name="description" content="Алиас - объясни иначе" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="settings js-settings-switcher" title="Настройки"></div>
+        <div class="settings-modal g-hidden js-settings-modal">
+            <div class="settings-modal__inner">
+                <h2>Настройки</h2>
+                <div class="form-row">
+                    <div class="form-label">На заданную букву</div>
+                    <div class="form-item">
+                        <select class="select js-select-symbol">
+                            <option value="ALL">Все</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="button button_stretched js-settings-button">Ну да</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="timer">
+                <svg class="progress" width="120" height="120" viewBox="0 0 120 120">
+                    <circle class="progress__meter" cx="60" cy="60" r="54" stroke-width="12"></circle>
+                    <circle class="progress__value js-timer-progress" cx="60" cy="60" r="54" stroke-width="12"></circle>
+                </svg>
+                <span class="timer__value js-timer-value">60</span>
+            </div>
+            <div class="word js-word"></div>
+            <div class="actions">
+                <button class="button button_danger js-button-fail">Пропустить</button>
+                <button class="button js-button-success">Угадали</button>
+                <button class="button js-button-reload" style="display: none;">Начать раунд</button>
+            </div>
+            <div class="summary">
+                Счет: <span class="js-summary">0</span>
+            </div>
+        </div>
+        
+        <script src="js/words/a.js"></script>
+        <script src="js/words/b.js"></script>
+        <script src="js/words/v.js"></script>
+        <script src="js/words/g.js"></script>
+        <script src="js/words/d.js"></script>
+        <script src="js/words/e.js"></script>
+        <script src="js/words/zh.js"></script>
+        <script src="js/words/z.js"></script>
+        <script src="js/words/i.js"></script>
+        <script src="js/words/ij.js"></script>
+        <script src="js/words/k.js"></script>
+        <script src="js/words/l.js"></script>
+        <script src="js/words/m.js"></script>
+        <script src="js/words/n.js"></script>
+        <script src="js/words/o.js"></script>
+        <script src="js/words/p.js"></script>
+        <script src="js/words/r.js"></script>
+        <script src="js/words/s.js"></script>
+        <script src="js/words/t.js"></script>
+        <script src="js/words/u.js"></script>
+        <script src="js/words/f.js"></script>
+        <script src="js/words/h.js"></script>
+        <script src="js/words/c.js"></script>
+        <script src="js/words/ch.js"></script>
+        <script src="js/words/sh.js"></script>
+        <script src="js/words/shh.js"></script>
+        <script src="js/words/ee.js"></script>
+        <script src="js/words/ju.js"></script>
+        <script src="js/words/ja.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
